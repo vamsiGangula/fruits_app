@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Styles from '../styles/Home.module.scss';
 import { useNavigate } from 'react-router-dom'; 
 
-function Home() {
+function Loader() {
   const navigate = useNavigate(); 
 
   useEffect(() => {
@@ -20,4 +20,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Loader;

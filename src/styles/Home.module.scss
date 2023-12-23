@@ -1,6 +1,150 @@
-.home1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.home1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+.hom1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  // position: relative;
+  position: relative;
+}
+.homsec {
+  border-radius: 32px;
+  height: 100vh;
+  padding-left: 23px;
+}
+.hom2 {
+  position: absolute;
+  left: 0%;
+  top: 100%;
+}
+.hom3 {
+  position: absolute;
+  right: 4%;
+  top: 39%;
+}
+.hom4 {
+  position: absolute;
+  right: 14%;
+  top: 38%;
+  color: #27214d;
+  font-family: Brandon Grotesque;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 150% */
+}
+.hom5 {
+  padding-top: 48px;
+  padding-right: 94px;
+}
+.homspan5 {
+  color: #27214d;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+.homspan6 {
+  color: #27214d;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+.hom7 {
+  display: flex;
+  padding-top: 24px;
+  // justify-content: space-evenly;
+}
+.hom8 {
+  width: 288px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #f3f4f9;
+  border: none !important;
+  outline: none !important;
+  border: 1px #f3f4f9 !important;
+  position: relative;
+}
+.serachIcon {
+  position: absolute;
+  left: 11%;
+  top: 35%;
+}
+.shuffle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+}
+.recomned {
+  color: #27214d;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.24px;
+}
+.hom9 {
+  width: 152px;
+  height: 183px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 30px 60px 0px rgba(32, 32, 32, 0.05);
+}
+.hom10 {
+  display: flex;
+  justify-content: end;
+  padding-right: 16px;
+  padding-top: 16px;
+}
+.hom11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hom12 {
+  padding-top: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hom13 {
+  color: #27214d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.16px;
+}
+.hom14{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.hom15{
+    color: #F08626;
+    font-family: Brandon Grotesque;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.14px;
+}
+.itemContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+  }
+  .hom16{
+    margin-top: 48px;
+  }

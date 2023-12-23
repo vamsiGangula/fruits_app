@@ -2,14 +2,6 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
-import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
 import TextField from "@mui/material/TextField";
 import CrossIcon from "../../icons/CrossIcon";
 import { FormControl, FormLabel } from "@mui/material";
@@ -86,8 +78,10 @@ export default function CardComponent() {
             </div>
           </div>
           <div className={Styles.card5}>
+            <div className={Styles.card8}>
             <div className={Styles.card6}>
-              <Button>Complete Order</Button>
+              <Button className=" btntex ">Complete Order</Button>
+            </div>
             </div>
           </div>
         
