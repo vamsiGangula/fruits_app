@@ -1,0 +1,110 @@
+.od1 {
+  // height: 100vh;
+  border-radius: 32px;
+  background: #ffff;
+}
+.od2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 160px;
+}
+.od3 {
+  width: 164px;
+  height: 164px;
+  flex-shrink: 0;
+  border-radius: 200px;
+  border: 2px solid #4cd964;
+  background: #e0ffe5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.od4 {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #4cd964;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes rotateTick {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+
+.od6 {
+  display: inline-block; /* Ensures the tick mark is a block element */
+  animation: rotateTick 0.5s linear infinite; /* Change 2s to the duration you prefer */
+}
+.od8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 56px;
+}
+.od9 {
+  color: #27214d;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 100% */
+  letter-spacing: -0.32px;
+}
+.od10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 247px; */
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 16px;
+}
+
+.od11 {
+    color: #27214D;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: -0.2px;
+}
+.od12{
+    padding-top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.od13{
+      display: inline-flex;
+padding: 16px 32px;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+border: 1px solid #FFA451;
+background: #FFA451;
+color: #fff;
+}
+.od15{
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+border: 1px solid #FFA451;
+
+}
+.od14{
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

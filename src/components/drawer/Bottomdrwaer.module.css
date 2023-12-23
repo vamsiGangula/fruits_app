@@ -1,0 +1,80 @@
+
+    .draw1{
+        padding-top: 31px;
+        padding-left: 23px;
+        height: 406px;
+  
+    }
+    .draw2{
+        display: flex;
+    justify-content: center;
+    padding-top: 16px;
+
+    }
+    .draw3{
+        color: #27214D;
+font-family: Brandon Grotesque;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.2px;
+    }
+    .draw4{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+    .draw5{
+        display: inline-flex;
+        padding: 16px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        border: 1px solid #FFA451;
+    }
+    .draw6{
+        padding-top: 24px;
+    }
+    .card1{
+        display: flex;
+        padding-top: 24px;
+    }
+    .card2{
+        float: left;
+        width: 50%;
+    }
+    .card3{
+        float: right;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card4{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 16px;
+    }
+    .card6{
+        justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #FFA451;
+    background: #FFF;
+    }
+    .card5{
+        padding-top: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card7{
+        padding-top: 31px;
+        padding-left: 23px;
+        height: 511px;
+    }
